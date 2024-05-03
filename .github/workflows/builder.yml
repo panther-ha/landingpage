@@ -1,10 +1,7 @@
 name: Build landingpage
 
 on:
-  pull_request:
-    branches: ["main"]
-  release:
-    types: ["published"]
+  workflow_dispatch:
 
 jobs:
   build:
